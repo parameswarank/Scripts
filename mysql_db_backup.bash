@@ -2,8 +2,10 @@
 
 TIMESTAMP=$(date +"%F")
 BACKUP_DIR="/backup/$TIMESTAMP"
+#Change mysql username as required
 MYSQL_USER="backup"
 MYSQL=/usr/bin/mysql
+#Change mysql password as required
 MYSQL_PASSWORD="password"
 MYSQLDUMP=/usr/bin/mysqldump
 
