@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 TIMESTAMP=$(date +"%F")
 BACKUP_DIR="/backup/$TIMESTAMP"
